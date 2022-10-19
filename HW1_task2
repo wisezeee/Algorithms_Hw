@@ -1,0 +1,9 @@
+#Сложность алгоритма O(n)
+
+def numJewelsInStones(jewels, stones):
+    count = 0  
+    listJewels = list(jewels)
+    for stn in stones:
+        if stn in listJewels:  
+            count += 1
+    return 
